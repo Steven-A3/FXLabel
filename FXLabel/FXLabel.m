@@ -574,6 +574,7 @@
 
 - (void)setUp
 {
+    self.backgroundColor = [UIColor clearColor];
     _gradientStartPoint = CGPointMake(0.5f, 0.0f);
     _gradientEndPoint = CGPointMake(0.5f, 0.75f);
     _minSamples = _maxSamples = 1;
